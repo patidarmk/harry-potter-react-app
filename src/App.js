@@ -23,7 +23,7 @@ const App =()=>{
     
     const getSentences = StoryData.split('.')
     const checkNoun = () => {
-        const nounList = nounData.filter((noun)=>StoryData.includes(noun))
+        const nounList = nounData.filter((noun)=>StoryData.indexOf(' '+noun+' ')!== -1)
         console.log(nounList)
         setNoun(nounList.sort());
     }
