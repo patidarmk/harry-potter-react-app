@@ -3,7 +3,7 @@ import { useState,useEffect } from "react"
 import Sentanse from './Components/Sentanse'
 import Nav from './Navbar/Navbar.js'
 import { nounData } from './data/nounData'
-import { StoryData } from  './data/StoryData.js'
+import { StoryData } from  './data/storyData.js'
 import Noun from './Components/Noun'
 import Conversation from './Components/Conversation';
 import img from './assets/search.png';
